@@ -11,7 +11,7 @@
 ## Screenshots of the App running on the Emulator
 #### The screenshot below shows how the error hanling works, if the user does not enter an input they will recieve a toast message informing them to enter an input
 ![error blank](https://github.com/user-attachments/assets/afd1b797-8a09-4785-9b50-322540f221cb)
-### The screenshot below shows that if the user enters a word instead of a number in the rating section, they be nortified that they need to enter a number instead. 
+#### The screenshot below shows that if the user enters a word instead of a number in the rating section, they be nortified that they need to enter a number instead. 
 ![number error](https://github.com/user-attachments/assets/8de00600-b894-4047-9899-8898b1647587)
 #### This screenshot below shows the list the user has made for their playlist and it is done so by clicking on the "Here's your playlist button"
 ![view](https://github.com/user-attachments/assets/70993a34-6518-463d-8c56-2d4617df6cbe)
