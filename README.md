@@ -1,5 +1,5 @@
 # Practicum-Summative Exam ReadMe File-
-##Screenshots of my Source Code
+## Screenshots of my Source Code
 ![Screenshot 2025-06-19 121703](https://github.com/user-attachments/assets/dc3c18e7-8aca-4636-a34b-10820c73b09b)
 ![Screenshot 2025-06-19 121818](https://github.com/user-attachments/assets/d6b922f9-0057-445e-91ce-0174055ba570)
 ![Screenshot 2025-06-19 121821](https://github.com/user-attachments/assets/05357ba1-e936-4136-8e12-747093d24dd1)
@@ -8,9 +8,16 @@
 ## Screenshots of My Main Screen
 ![Main Screen Page](https://github.com/user-attachments/assets/4a998db2-b1df-41fb-8597-6fe434e5ef3d)
 ## Screenshot of The Detailed View Screen
-![Second Screen4](https://github.com/user-attachments/assets/3962d6ed-d1b8-404e-b836-6a163562b5aa)
+![second screen3](https://github.com/user-attachments/assets/ac8a847f-e9b3-4084-8864-4d6e7cc789e4)
 ## Screenshots of the App running on the Emulator
-
-
-
-https://www.freepik.com/free-photos-vectors/music
+#### The screenshot below shows how the error hanling works, if the user does not enter an input they will recieve a toast message informing them to enter an input
+![error blank](https://github.com/user-attachments/assets/afd1b797-8a09-4785-9b50-322540f221cb)
+### The screenshot below shows that if the user enters a word instead of a number in the rating section, they be nortified that they need to enter a number instead. 
+![number error](https://github.com/user-attachments/assets/8de00600-b894-4047-9899-8898b1647587)
+#### This screenshot below shows the list the user has made for their playlist and it is done so by clicking on the "Here's your playlist button"
+![view](https://github.com/user-attachments/assets/70993a34-6518-463d-8c56-2d4617df6cbe)
+#### Reference List for the two images used in android atudio
+##### Kim Alishia,2025.Music Images.[online].Available at: <https://za.pinterest.com/irankpop9/music-images/>
+##### Freepik, 2025.Freepik.[online] Available at: <https://www.freepik.com/free-photos-vectors/music>
+## Link to my GitHub repo:
+https://github.com/KimberlyTcoder/Practicum-Summative-.git
