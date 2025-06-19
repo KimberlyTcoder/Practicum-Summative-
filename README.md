@@ -10,7 +10,12 @@
 ## Screenshot of The Detailed View Screen
 ![Second Screen4](https://github.com/user-attachments/assets/3962d6ed-d1b8-404e-b836-6a163562b5aa)
 ## Screenshots of the App running on the Emulator
-
-
-
-https://www.freepik.com/free-photos-vectors/music
+#### The screenshot below shows how the error hanling works, if the user does not enter an input they will recieve a toast message informing them to enter an input
+![error blank](https://github.com/user-attachments/assets/afd1b797-8a09-4785-9b50-322540f221cb)
+### The screenshot below shows that if the user enters a word instead of a number in the rating section, they be nortified that they need to enter a number instead. 
+![number error](https://github.com/user-attachments/assets/8de00600-b894-4047-9899-8898b1647587)
+#### This screenshot below shows the list the user has made for their playlist and it is done so by clicking on the "Here's your playlist button"
+Reference List for the two images used in android atudio
+Kim Alishia,2025.Music Images.[online].Available at: <https://za.pinterest.com/irankpop9/music-images/>
+freepik, 2025.Freepik.[online] Available at: <https://www.freepik.com/free-photos-vectors/music>
+##Link to my GitHub repo:
