@@ -1,6 +1,8 @@
 package vcmsa.ci.practicumexamapp
 
+import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -36,12 +38,14 @@ class ScreenTwo : AppCompatActivity() {
             var outputString: String = ""
             //for loop that runs 0 to the position
             for (i in 0..arrayPosition-1 ) { // (IIE,2025)
+                Log.d(TAG, "The for loop to show the list")
                 if (songRatings[i] < 5) {
                     //The list is populated here and the list will show
                     outputString += "Song Title:" + songTitles[i] + "\n"
                     outputString += "Artist Name: " + artistNames[i] + "\n"
                     outputString += "Song Rating:" + songRatings[i].toString() + "\n"
                     outputString += "Song Comments:" + songComments[i] + "\n\n"
+                    Log.d(TAG, "The list has successfully been shown")
                 }
                 lblOutputPlaylist.text = outputString
                 //The output to view the list
