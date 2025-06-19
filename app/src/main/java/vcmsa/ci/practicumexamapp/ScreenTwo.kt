@@ -18,34 +18,37 @@ class ScreenTwo : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
+//Declarations Here
         val btnReturnToMain = findViewById<Button>(R.id.btnReturnToMain)
         val btnCalculate = findViewById<Button>(R.id.btnCalculate)
         val btnDisplay = findViewById<Button>(R.id.btnDisplay)
         val lblOutputPlaylist = findViewById<TextView>(R.id.lblOutputPlaylist)
-        val lblOutputRating = findViewById<TextView>(R.id.lblOutputRating)
 
 
 
 
         btnReturnToMain.setOnClickListener {
             finish()
+            //This button Return the Main Screen
         }
+        //Setting the Display Button for the list
         btnDisplay.setOnClickListener {
             var outputString: String = ""
             //for loop that runs 0 to the position
-            for (i in 0..arrayPosition-1 ) {
+            for (i in 0..arrayPosition-1 ) { // (IIE,2025)
                 if (songRatings[i] < 5) {
+                    //The list is populated here and the list will show
                     outputString += "Song Title:" + songTitles[i] + "\n"
                     outputString += "Artist Name: " + artistNames[i] + "\n"
                     outputString += "Song Rating:" + songRatings[i].toString() + "\n"
                     outputString += "Song Comments:" + songComments[i] + "\n\n"
                 }
                 lblOutputPlaylist.text = outputString
+                //The output to view the list
             }
 
             btnCalculate.setOnClickListener {
-
+//Setting teh button for the Calculation
                 }
             }
         }

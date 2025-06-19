@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.isDigitsOnly
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+//Set a Global Array Here
 var songTitles  =Array<String>(4){""}
 var  artistNames= Array<String> (4){""}
 var songRatings = Array<Int> (4){0}
@@ -29,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
         // Student name: Kimberly Takundwa
         // Student Number: ST10471537
-
+//Declarations for my Code
         val btnAddToPlaylist = findViewById<Button>(R.id.btnAddToPlaylist)
         val btnNext = findViewById<Button>(R.id.btnNext)
         val btnExit = findViewById<Button>(R.id.btnExit)
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         var lblSongTitle = findViewById<EditText>(R.id.lblSongTitle)
         var lblComments = findViewById<EditText>(R.id.lblComments)
         val TAG = "Playlist Manager App"
-
+//Setting the Button
         btnAddToPlaylist.setOnClickListener {
             val songTitle: String = lblSongTitle.text.toString()
             val artistName: String = lblArtistName.text.toString()
@@ -100,7 +101,7 @@ class MainActivity : AppCompatActivity() {
                 songComments[arrayPosition] = songComment
                 arrayPosition++
                 Toast.makeText(this, "Added to Playlist 🎶❤️!", Toast.LENGTH_SHORT)
-                    .show() //Toast Message to show that the Items were added
+                    .show() //Toast Message to show that the list was added
                 Log.d(
                     TAG,
                     "User has tried to add songs to full array:("
@@ -119,7 +120,9 @@ class MainActivity : AppCompatActivity() {
         //Setting teh exit Button to completely shut down the app
         btnExit.setOnClickListener {
             finishAffinity()
+            //This button shut the app down and stops it
 
         }
     }
 }
+//The IIE.2025. Introduction to Mobile Application Development [IMAD5112 Module Manual]. The Independent Institute of Education: Unpublished.
