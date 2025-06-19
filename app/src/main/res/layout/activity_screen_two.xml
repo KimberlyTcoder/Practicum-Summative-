@@ -32,4 +32,18 @@
         android:text="Here's Your Playlist"
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="512dp" />
+
+    <TextView
+        android:id="@+id/lblOutputRating"
+        android:layout_width="332dp"
+        android:layout_height="82dp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/lblOutputPlaylist"
+        android:layout_width="311dp"
+        android:layout_height="187dp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="117dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
