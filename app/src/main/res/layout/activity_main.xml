@@ -10,105 +10,110 @@
 
     <EditText
         android:id="@+id/lblComments"
-        android:layout_width="248dp"
+        android:layout_width="233dp"
         android:layout_height="52dp"
-        android:layout_marginStart="109dp"
-        android:layout_marginTop="434dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginBottom="252dp"
         android:ems="10"
         android:hint="Enter any Comments"
         android:inputType="text"
-        android:text="Enter any Comments"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.659" />
 
     <Button
         android:id="@+id/btnAddToPlaylist"
-        android:layout_width="152dp"
-        android:layout_height="46dp"
+        android:layout_width="162dp"
+        android:layout_height="48dp"
         android:text="Add to Playlist"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintHorizontal_bias="0.574"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
+        app:layout_constraintVertical_bias="0.742" />
 
     <Button
         android:id="@+id/btnNext"
-        android:layout_width="135dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="116dp"
+        android:layout_width="152dp"
+        android:layout_height="53dp"
         android:text="Next Screen "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.834" />
+        app:layout_constraintVertical_bias="0.849" />
 
     <Button
         android:id="@+id/btnExit"
-        android:layout_width="143dp"
-        android:layout_height="53dp"
+        android:layout_width="216dp"
+        android:layout_height="70dp"
         android:text="Exit App"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.946" />
+        app:layout_constraintVertical_bias="0.956" />
 
     <EditText
         android:id="@+id/lblRate"
-        android:layout_width="239dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="122dp"
-        android:layout_marginTop="371dp"
-        android:layout_marginEnd="79dp"
-        android:layout_marginBottom="315dp"
+        android:layout_width="242dp"
+        android:layout_height="52dp"
         android:ems="10"
         android:hint="Enter your rating from 1-5"
         android:inputType="text"
-        android:text="Enter your rating from 1-5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
 
     <EditText
         android:id="@+id/lblSongTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="134dp"
-        android:layout_marginTop="236dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="450dp"
+        android:layout_width="235dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:hint="Enter the song title"
         android:inputType="text"
-        android:text="Enter the song title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
 
     <EditText
         android:id="@+id/lblArtistName"
         android:layout_width="234dp"
         android:layout_height="53dp"
-        android:layout_marginStart="122dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="79dp"
-        android:layout_marginBottom="374dp"
         android:ems="10"
         android:hint="Enter the Artist's Name"
         android:inputType="text"
-        android:text="Enter the Artist's Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <TextView
+        android:id="@+id/lblheading"
+        android:layout_width="379dp"
+        android:layout_height="158dp"
+        android:fontFamily="serif-monospace"
+        android:text="Play-list-fy Music App🎶"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

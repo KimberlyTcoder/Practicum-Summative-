@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat
 var songTitles  =Array<String>(4){""}
 var  artistNames= Array<String> (4){""}
 var songRatings = Array<Int> (4){0}
-var songCommets = Array<String> (4) {""}
+var songComments = Array<String> (4) {""}
 var arrayPosition = 0
 
 class MainActivity : AppCompatActivity() {
@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
             } else if (!songRating.isDigitsOnly()) {
                 Toast.makeText(
                     this,
-                    "Enter only digits here",
+                    "Enter only digits in the rating section, rate between 1 and 5",
                     Toast.LENGTH_SHORT
                 ).show()
                 return@setOnClickListener
@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
             if (songComment.isNullOrBlank()) {
                 Toast.makeText(
                     this,
-                    "Input cannot be blank, please enter a valid comment and try again.",
+                    "Input cannot be blank, please enter a valid input and try again.",
                     Toast.LENGTH_SHORT
                 ).show()
                 Log.d(TAG, "The user did not enter a comment")
@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
                 songTitles[arrayPosition] = songTitle
                 artistNames[arrayPosition] = artistName
                 songRatings[arrayPosition] = songRating.toInt()
-                songCommets[arrayPosition] = songComment
+                songComments[arrayPosition] = songComment
                 arrayPosition++
                 Toast.makeText(this, "Added to Playlist 🎶❤️!", Toast.LENGTH_SHORT)
                     .show() //Toast Message to show that the Items were added

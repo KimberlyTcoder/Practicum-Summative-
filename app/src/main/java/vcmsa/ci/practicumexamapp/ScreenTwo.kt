@@ -25,33 +25,44 @@ class ScreenTwo : AppCompatActivity() {
         val lblOutputPlaylist = findViewById<TextView>(R.id.lblOutputPlaylist)
         val lblOutputRating = findViewById<TextView>(R.id.lblOutputRating)
 
+
+
+
         btnReturnToMain.setOnClickListener {
             finish()
         }
         btnDisplay.setOnClickListener {
             var outputString: String = ""
             //for loop that runs 0 to the position
-            for (i in 0..arrayPosition) {
-                if (songRatings[i] >= 5) {
+            for (i in 0..arrayPosition-1 ) {
+                if (songRatings[i] < 5) {
                     outputString += "Song Title:" + songTitles[i] + "\n"
                     outputString += "Artist Name: " + artistNames[i] + "\n"
                     outputString += "Song Rating:" + songRatings[i].toString() + "\n"
-                    outputString += "Song Comments:" + songRatings[i] + "\n\n"
+                    outputString += "Song Comments:" + songComments[i] + "\n\n"
                 }
                 lblOutputPlaylist.text = outputString
             }
-            arrayOf(1,2,3,4,5).average()
 
             btnCalculate.setOnClickListener {
-                val averageRating
+
+                }
             }
-
-
-
-
         }
     }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+//The IIE.2025. Introduction to Mobile Application Development [IMAD5112 Module Manual]. The Independent Institute of Education: Unpublished.
 
 
 
