@@ -5,6 +5,31 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ScreenTwo">
+    tools:context=".ScreenTwo"
+    android:background = "@drawable/secondBackground"
+    >
 
+    <Button
+        android:id="@+id/btnReturnToMain"
+        android:layout_width="164dp"
+        android:layout_height="54dp"
+        android:text="Return to Main Screen"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="647dp" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="151dp"
+        android:layout_height="55dp"
+        android:text="Calculate Average Rating"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="149dp"
+        android:layout_height="57dp"
+        android:text="Here's Your Playlist"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="512dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
