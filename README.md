@@ -8,7 +8,7 @@
 ## Screenshots of My Main Screen
 ![Main Screen Page](https://github.com/user-attachments/assets/4a998db2-b1df-41fb-8597-6fe434e5ef3d)
 ## Screenshot of The Detailed View Screen
-![Second Screen4](https://github.com/user-attachments/assets/3962d6ed-d1b8-404e-b836-6a163562b5aa)
+![second screen3](https://github.com/user-attachments/assets/ac8a847f-e9b3-4084-8864-4d6e7cc789e4)
 ## Screenshots of the App running on the Emulator
 #### The screenshot below shows how the error hanling works, if the user does not enter an input they will recieve a toast message informing them to enter an input
 ![error blank](https://github.com/user-attachments/assets/afd1b797-8a09-4785-9b50-322540f221cb)
