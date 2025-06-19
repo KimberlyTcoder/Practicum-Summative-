@@ -1,5 +1,5 @@
 # Practicum-Summative Exam ReadMe File-
-##Screenshots of my Source Code
+## Screenshots of my Source Code
 ![Screenshot 2025-06-19 121703](https://github.com/user-attachments/assets/dc3c18e7-8aca-4636-a34b-10820c73b09b)
 ![Screenshot 2025-06-19 121818](https://github.com/user-attachments/assets/d6b922f9-0057-445e-91ce-0174055ba570)
 ![Screenshot 2025-06-19 121821](https://github.com/user-attachments/assets/05357ba1-e936-4136-8e12-747093d24dd1)
@@ -18,5 +18,5 @@
 Reference List for the two images used in android atudio
 Kim Alishia,2025.Music Images.[online].Available at: <https://za.pinterest.com/irankpop9/music-images/>
 freepik, 2025.Freepik.[online] Available at: <https://www.freepik.com/free-photos-vectors/music>
-##Link to my GitHub repo:
+## Link to my GitHub repo:
 https://github.com/KimberlyTcoder/Practicum-Summative-.git
